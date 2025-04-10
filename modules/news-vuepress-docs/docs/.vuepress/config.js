@@ -4,6 +4,8 @@ import { defineUserConfig } from 'vuepress'
 import { path } from '@vuepress/utils'
 
 export default defineUserConfig({
+    base: '/NewsAggregator-test12/',
+
     // 添加客户端配置文件路径
     clientConfigFile: path.resolve(__dirname, './client.js'),
 
@@ -38,7 +40,7 @@ export default defineUserConfig({
             }
         ],
         
-        repo: "https://gitee.com/your-username/news-repo",
+        repo: "https://github.com/fox142857/NewsAggregator-test12",
         repoLabel: '查看源码',
     }),
 })
