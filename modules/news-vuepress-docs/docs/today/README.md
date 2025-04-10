@@ -11,10 +11,7 @@ sidebar: auto
 :::
 
 ## 最近更新
-
-<ClientOnly>
-  <CurrentDate/>
-</ClientOnly>
+- [<currentdate></currentdate>人民日报](./today-news.md)
 
 ## 历史存档
 暂无历史存档。新的新闻将在系统自动抓取后在此处显示。 
