@@ -49,7 +49,7 @@ jobs:
             DETAIL="Result: Deployment to GitHub Pages was successful."
           else
             ORIGINAL_SUBJECT="${WORKFLOW_FILE}: Deployment failed"
-            CLASSIFICATION="Error"
+            CLASSIFICATION="Warn"
             DETAIL="Result: Deployment encountered errors. Please check logs."
           fi
           FINAL_SUBJECT="Workflow Alert: ${CLASSIFICATION}"

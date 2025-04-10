@@ -63,7 +63,7 @@ jobs:
         run: |
           WORKFLOW_FILE="03-copy-newslist.yml"
           ORIGINAL_SUBJECT="${WORKFLOW_FILE}: Markdown file missing"
-          CLASSIFICATION="Error"
+          CLASSIFICATION="Warn"
           DETAIL="Result: No markdown file was found for today or yesterday in modules/news-crawler-service/src/output. Please check the crawler."
           FINAL_SUBJECT="Workflow Alert: ${CLASSIFICATION}"
           FINAL_BODY="${WORKFLOW_FILE}\n${ORIGINAL_SUBJECT}\n${DETAIL}"

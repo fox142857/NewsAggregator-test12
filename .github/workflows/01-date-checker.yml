@@ -51,8 +51,8 @@ jobs:
             DETAIL="Result: Today's markdown file exists."
           else
             ORIGINAL_SUBJECT="${WORKFLOW_FILE}: File missing"
-            CLASSIFICATION="Error"
-            DETAIL="Result: Today's markdown file does not exist."
+            CLASSIFICATION="Warn"
+            DETAIL="Result: Today's markdown file does not exist. The crawler will be triggered."
           fi
           FINAL_SUBJECT="Workflow Alert: ${CLASSIFICATION}"
           FINAL_BODY="${WORKFLOW_FILE}\n${ORIGINAL_SUBJECT}\n${DETAIL}"

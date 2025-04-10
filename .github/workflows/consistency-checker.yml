@@ -38,7 +38,7 @@ jobs:
             DETAIL="Result: The output directories in the master and crawler-service branches are identical."
           else
             ORIGINAL_SUBJECT="${WORKFLOW_FILE}: Output directories mismatch"
-            CLASSIFICATION="Warn"
+            CLASSIFICATION="Warn"  # 此处设置为 Warn 提醒注意
             DETAIL="Result: The output directories in the master and crawler-service branches are inconsistent. Please check the crawler output."
           fi
           FINAL_SUBJECT="Workflow Alert: ${CLASSIFICATION}"

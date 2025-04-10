@@ -106,7 +106,7 @@ jobs:
             DETAIL="Result: The crawler ran successfully and output was updated."
           else
             ORIGINAL_SUBJECT="${WORKFLOW_FILE}: Crawl failed"
-            CLASSIFICATION="Error"
+            CLASSIFICATION="Warn"
             DETAIL="Result: The crawler encountered errors. Please check logs."
           fi
           FINAL_SUBJECT="Workflow Alert: ${CLASSIFICATION}"
