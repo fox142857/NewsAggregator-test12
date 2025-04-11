@@ -14,6 +14,11 @@ a {
   color: #ffffff; /* 默认白色 */
 }
 
+/* 全局设置链接文字为白色 */
+p {
+  color: #ffffff; /* 默认白色 */
+}
+
 /* 设置标题颜色 */
 h1 {
   color: #000000ba;
@@ -34,6 +39,16 @@ h1 {
   margin: 0.5rem;
   font-weight: 500;
   min-width: 10rem;  /* 设置最小宽度使按钮大小一致 */
+}
+
+/* 针对首页主标题进行样式覆盖 */
+/* 如果样式没有生效，可尝试加上 !important */
+.home .main-title {
+  color: #ffffff !important;
+}
+
+.home .p {
+  color: #eeeeee !important;
 }
 
 /* 修复首页图片变形问题 */
