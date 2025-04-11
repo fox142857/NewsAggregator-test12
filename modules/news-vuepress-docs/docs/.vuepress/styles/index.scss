@@ -6,12 +6,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* 全局设置链接文字为白色 */
 a {
   color: #ffffff; /* 默认白色 */
+}
+
+/* 设置标题颜色 */
+h1 {
+  color: #000000ba;
 }
 
 /* 控制首页按钮样式 */
