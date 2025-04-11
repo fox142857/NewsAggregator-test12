@@ -16,7 +16,7 @@ a {
 
 /* 全局设置链接文字为白色 */
 p {
-  color: #ffffff; /* 默认白色 */
+  color: #ffffff !important; /* 默认白色 */
 }
 
 /* 设置标题颜色 */
@@ -47,8 +47,8 @@ h1 {
   color: #ffffff !important;
 }
 
-.home .p {
-  color: #ffffff !important;
+#app > div > main > div.vp-features > div:nth-child(1) > p {
+  color: #ffffff;
 }
 
 /* 修复首页图片变形问题 */

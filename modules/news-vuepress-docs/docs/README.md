@@ -14,7 +14,7 @@ features:
     details: 按照版面进行分类，便于浏览
   - title: 原文链接
     details: 提供返回原文的便捷链接
-footer: 人民日报新闻智能聚合系统 | Copyright © 2023
+footer: 人民日报新闻智能聚合系统 | Copyright © 2025
 ---
 
 <!-- <script>
