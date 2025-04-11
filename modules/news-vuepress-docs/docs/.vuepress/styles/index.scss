@@ -1,3 +1,19 @@
+/* 配置全局背景图片 */
+body {
+  background:
+          linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+          url('/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+/* 全局设置链接文字为白色 */
+a {
+  color: #ffffff; /* 默认白色 */
+}
+
 /* 控制首页按钮样式 */
 .home .action-button {
   display: inline-block;
