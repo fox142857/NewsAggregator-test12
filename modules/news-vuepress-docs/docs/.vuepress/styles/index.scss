@@ -43,12 +43,12 @@ h1 {
 
 /* 针对首页主标题进行样式覆盖 */
 /* 如果样式没有生效，可尝试加上 !important */
-.home .main-title {
+#main-title {
   color: #ffffff !important;
 }
 
 .home .p {
-  color: #eeeeee !important;
+  color: #ffffff !important;
 }
 
 /* 修复首页图片变形问题 */
